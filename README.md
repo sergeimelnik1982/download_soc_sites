@@ -7,9 +7,11 @@ python3 -m pip install -r requirements.txt
 Создаём БД и импортируем её из soc_sites.sql
 
 В settings.ini:
+[code]
 [rkn]
 login = логин (ИНН)
 password = пароль
+[/code]
 
 [system]
 path=/tmp/rkn.zip - куда скачиваем zip-файл
