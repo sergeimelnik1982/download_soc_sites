@@ -7,22 +7,27 @@ python3 -m pip install -r requirements.txt
 Создаём БД и импортируем её из soc_sites.sql
 
 В settings.ini:
-[code]
+
+```
 [rkn]
 login = логин (ИНН)
 password = пароль
-[/code]
+```
 
+```
 [system]
 path=/tmp/rkn.zip - куда скачиваем zip-файл
 unzip_path = /tmp/ - куда разархивируем zip
+```
 
-[mysql]
+```
+[mysql]<br />
 DB = soc_inet - имя БД
 username = soc_inet - пользователь БД
 password = 12345 - пароль
-host = localhost - хост, на котором находится БД
+host = localhost - хост, на котором находится БД<
 port = 3306 - порт
+```
 
 Запускать:
 python3 soc.py
