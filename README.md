@@ -21,7 +21,7 @@ unzip_path = /tmp/ - куда разархивируем zip
 ```
 
 ```
-[mysql]<br />
+[mysql]
 DB = soc_inet - имя БД
 username = soc_inet - пользователь БД
 password = 12345 - пароль
